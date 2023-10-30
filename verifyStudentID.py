@@ -1,9 +1,10 @@
-# run pip install -U selenium first to update selenium
 # Import necessary libraries
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager 
 
 # Read data from the input Excel file and perform data cleaning
 data = pd.read_excel("rawData.xlsx")
