@@ -1,10 +1,11 @@
-# run pip install -U selenium first to update selenium
-
 # Import required libraries
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager 
+
 # Read data from the input Excel file
 df = pd.read_excel("rawData.xlsx file", sheet_name="sheet name")
 
@@ -13,8 +14,9 @@ df.insert(df.columns.get_loc("โรงเรียนที่สำเร็�
 
 # Set options for the Chrome webdriver
 options = Options()
+service = Service(ChromeDriverManager().install())
 options.add_experimental_option("detach", True)  # Keep the browser open after the script execution
-driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome(service=service, options=options)
 
 # Navigate to the web page to be scraped
 driver.get("http://reg4.sut.ac.th/registrar/ces_SearchSchool.asp")
