@@ -1,6 +1,6 @@
 # Vishnu-21
 
-Vishnu-21 is a data scraping and predictive analysis project that aims to gather data on more than 1000 freshmen and predict the number of freshmen who will stay the night. This project utilizes the power of Pandas for data manipulation and Selenium for web scraping.
+Vishnu-21 is a data scraping project that aims to gather data on more than 1000 freshmen and predict the number of freshmen who will stay the night. This project utilizes the power of Pandas for data manipulation and Selenium for web scraping.
 
 ## Installation
 
