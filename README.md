@@ -1,5 +1,3 @@
-Certainly! Here is a sample README for your project 'vishnu-21' on GitHub:
-
 # Vishnu-21
 
 Vishnu-21 is a data scraping and predictive analysis project that aims to gather data on more than 1000 freshmen and predict the number of freshmen who will stay the night. This project utilizes the power of Pandas for data manipulation and Selenium for web scraping.
@@ -36,11 +34,7 @@ python analysis.py
 
 ## Data
 
-The data collected includes various parameters related to the freshmen such as age, gender, arrival time, departure time, and other relevant information. The collected data is stored in the 'data' directory.
-
-## Predictive Model
-
-The predictive model uses a combination of machine learning algorithms implemented using the Pandas library. It utilizes historical data to predict the number of freshmen who will stay the night.
+The data collected includes various parameters related to the freshmen. The collected data is stored in .xlsx format.
 
 ## Requirements
 
@@ -58,14 +52,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-Special thanks to the contributors and developers who have contributed to this project.
+Special thanks Vishnu 21st camp
 
 ## Contact
 
-For any inquiries, please contact project leads:
-- John Doe (johndoe@example.com)
-- Jane Doe (janedoe@example.com)
+For any inquiries, please contact 
+Imeany12
 
 ---
-
-Feel free to customize this README to include any other relevant details or guidelines specific to your project.
