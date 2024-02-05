@@ -7,7 +7,7 @@ Vishnu-21 is a data scraping project that aims to gather data on more than 1000 
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/vishnu-21.git
+git clone https://github.com/Imeany12/vishnu-21.git
 ```
 
 2. Install the necessary dependencies:
